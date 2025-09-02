@@ -96,8 +96,8 @@ table,tr,td {
 #column1_avatar {
     background-image: none !important;
     background-repeat: no-repeat;
-	  background-color: transparent;
-    border: none;
+	  background-color: transparent !important;
+    border: none !important;
 }
 
 #navigation {
