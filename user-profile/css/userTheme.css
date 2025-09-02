@@ -109,6 +109,10 @@ table,tr,td {
 
 #content_avatar {
     height: 100%;
+    background-image: none !important;
+    background-repeat: no-repeat;
+	  background-color: transparent;
+    border: none !important;
 }
 
 #content_avatar img {
