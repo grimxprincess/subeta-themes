@@ -42,9 +42,13 @@ body {
 
 .block {
   background: var(--block-bg-color);
+  -moz-border-radius: var(--block-radius);
+	-webkit-border-radius: var(--block-radius);
   border-radius: var(--block-radius);
   margin-bottom: var(--column-spacing);
   padding: var(--block_content-spacing);
+  background-image: none !important;
+  border: 2px solid white;
 }
 
 .block .header {
@@ -53,6 +57,13 @@ body {
   font-size: var(--block_head-font-size);
   border-radius: var(--block-radius) var(--block-radius) 0 0;
   padding: var(--block_content-spacing);
+}
+
+.info_block { 
+	width: 100%;
+	padding: 1px;
+  background-image: linear-gradient(to bottom, var(--purple), var(--blue)) !important;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -120,20 +131,6 @@ table,tr,td {
 .div_float { 
 	float: left;
 	width: 33%;
-}
-
-.block {
-	border: 5px solid white;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	background-image:url('https://img.subeta.net/profile_transparent.png');
-}
-
-.info_block { 
-	width: 100%;
-	padding: 1px;
-	background-image:url('https://img.subeta.net/profile_content_gradient.png');
-	background-repeat: repeat-x;
 }
 
 .updated_text { 
