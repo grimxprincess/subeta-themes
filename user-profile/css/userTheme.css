@@ -107,6 +107,16 @@ table,tr,td {
     border: none !important;
 }
 
+#content_avatar {
+    height: 100%;
+}
+
+#content_avatar img {
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 #navigation {
   color: var(--white);
   font-family: var(--body-font-family);
