@@ -12,6 +12,11 @@ body {
      font-size: var(--body-font-size);
 }
 
+input,textarea,select { 
+	font-family: var(--body-font-family);
+     font-size: var(--body-font-size);
+}
+
 .block .header {
      font-family: var(--heading-font-family);
      font-weight: normal;
