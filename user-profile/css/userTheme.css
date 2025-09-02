@@ -29,7 +29,6 @@ input,textarea,select {
 }
 
 body {
-  background-image: none !important;
   background-image: linear-gradient(to bottom, var(--dark), var(--purple)) !important;
   background-repeat: no-repeat;
   color: var(--white);
@@ -68,7 +67,6 @@ body {
 }
 
 .comment_table {
-  background-image: none !important;
   background-image: linear-gradient(to bottom, var(--dark), var(--purple)) !important;
   background-repeat: no-repeat;
 	border-bottom: 1px solid black;
