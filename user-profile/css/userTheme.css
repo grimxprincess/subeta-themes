@@ -28,7 +28,7 @@ input,textarea,select {
 	font-size: 11px;
 }
 
-body {
+body,.navigation,.header,.block,.info_block,#toolbox {
   background-image: none !important;
   background-image: linear-gradient(to bottom, var(--dark), var(--purple)) !important;
   background-repeat: no-repeat;
@@ -40,14 +40,6 @@ body {
   padding: 1rem;
 }
 
-
-.navigation {
-  background: var(--navigation-bg-color);
-  padding: var(--navigation-spacing);
-  border-radius: var(--body-radius);
-}
-
-/* block styles */
 .block {
   background: var(--block-bg-color);
   border-radius: var(--block-radius);
@@ -76,19 +68,20 @@ body {
   box-shadow: 0 0 0.5rem var(--yellow);
 }
 
-#content_comment {
-    textarea {
-        border: 2px dashed var(--orange);
-        border-radius: .25rem;
-        padding: .5em;
-
-        &:focus-visible {
-            outline: none;
-            border-style: solid;
-        }
-    }
+.comment_table { 
+	border-bottom: 1px solid black;
+	width: 100%;
+	background-image:url('https://img.subeta.net/profile_comment_gradient.png');
+	background-repeat: repeat-x;
 }
 
+table,tr,td { 
+	padding: 0px;
+}
+
+.comment_info { 
+	width: 64px;
+}
 
 
 
@@ -120,21 +113,6 @@ body {
 }
 
 #medals td { 
-	width: 64px;
-}
-
-.comment_table { 
-	border-bottom: 1px solid black;
-	width: 100%;
-	background-image:url('https://img.subeta.net/profile_comment_gradient.png');
-	background-repeat: repeat-x;
-}
-
-table,tr,td { 
-	padding: 0px;
-}
-
-.comment_info { 
 	width: 64px;
 }
 
