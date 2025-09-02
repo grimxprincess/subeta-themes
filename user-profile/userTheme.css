@@ -1,0 +1,65 @@
+/* theme by Grim */
+/* if u r my twin, feel free to use this theme */
+/* if u r not my twin and you found this, plz don't use this, thnx */
+
+@import url("./vars.css");
+@import url("./fonts.css");
+
+/* body styles */
+body {
+  background: var(--dark);
+  color: var(--white);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  margin: var(--body-spacing);
+  border-radius: var(--body-radius);
+}
+
+/* navigation styles */
+.navigation {
+  background: var(--navigation-bg-color);
+  padding: var(--navigation-spacing);
+  border-radius: var(--body-radius);
+}
+
+/* block styles */
+.block {
+  background: var(--block-bg-color);
+  border-radius: var(--block-radius);
+  margin-bottom: var(--column-spacing);
+  padding: var(--block_content-spacing);
+}
+
+.block .header {
+  background: var(--block_head-bg-color);
+  font-family: var(--heading-font-family);
+  font-size: var(--block_head-font-size);
+  border-radius: var(--block-radius) var(--block-radius) 0 0;
+  padding: var(--block_content-spacing);
+}
+
+/* button styles */
+.button {
+  background: var(--button-bg-color);
+  border-radius: var(--button-radius);
+  padding: var(--button-padding);
+  line-height: var(--button-line-height);
+  transition: var(--button-transition);
+}
+
+.button:hover {
+  box-shadow: 0 0 0.5rem var(--yellow);
+}
+
+#content_comment {
+    textarea {
+        border: 2px dashed var(--orange);
+        border-radius: .25rem;
+        padding: .5em;
+
+        &:focus-visible {
+            outline: none;
+            border-style: solid;
+        }
+    }
+}

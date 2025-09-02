@@ -1,0 +1,32 @@
+/* original palette is from https://lospec.com/palette-list/clement-8 */
+
+:root {
+  --dark: #000871;
+  --purple: #8854f3;
+  --blue: #639bff;
+  --green: #63ffba;
+  --orange: #ff8c5c;
+  --pink: #ff79ae;
+  --yellow: #fff982;
+  --white: #ffffff;
+
+  --body-radius: 1rem;
+  --body-spacing: 2rem;
+
+  --button-radius: .25rem;
+  --button-padding: .5em;
+  --button-bg-color: var(--orange);
+  --button-line-height: 1.5;
+  --button-transition: width .2s, margin .2s, box-shadow .2s;
+
+  --navigation-bg-color: var(--purple);
+  --navigation-spacing: .75rem;
+
+  --column-spacing: 3rem;
+
+  --block-radius: .5rem;
+  --block-bg-color: var(--purple);
+  --block_head-bg-color: var(--green);
+  --block_head-font-size: 2rem;
+  --block_content-spacing: .5rem;
+}
