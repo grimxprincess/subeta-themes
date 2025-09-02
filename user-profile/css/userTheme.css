@@ -28,7 +28,7 @@ input,textarea,select {
 	font-size: 11px;
 }
 
-body,.navigation,.header,.block,.info_block,#toolbox {
+body {
   background-image: none !important;
   background-image: linear-gradient(to bottom, var(--dark), var(--purple)) !important;
   background-repeat: no-repeat;
@@ -55,7 +55,6 @@ body,.navigation,.header,.block,.info_block,#toolbox {
   padding: var(--block_content-spacing);
 }
 
-/* button styles */
 .button {
   background: var(--button-bg-color);
   border-radius: var(--button-radius);
@@ -68,11 +67,12 @@ body,.navigation,.header,.block,.info_block,#toolbox {
   box-shadow: 0 0 0.5rem var(--yellow);
 }
 
-.comment_table { 
+.comment_table {
+  background-image: none !important;
+  background-image: linear-gradient(to bottom, var(--dark), var(--purple)) !important;
+  background-repeat: no-repeat;
 	border-bottom: 1px solid black;
 	width: 100%;
-	background-image:url('https://img.subeta.net/profile_comment_gradient.png');
-	background-repeat: repeat-x;
 }
 
 table,tr,td { 
