@@ -82,35 +82,20 @@ table,tr,td {
 	width: 64px;
 }
 
-
-
-
+#navigation {
+  color: var(--white);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  letter-spacing: 1px;
+	border-bottom: 1px solid black;
+  margin: var(--body-spacing);
+	padding: 3px;
+  background-image: none !important;
+  background-repeat: no-repeat;
+	background-color: var(--blue);
+}
 
 /*
-
-#navigation {
-	font-size: 11px;
-	font-family: tahoma;
-	font-weight: bold;
-	letter-spacing: 1px;
-	border-bottom: 1px solid black;
-	margin: 0px;
-	padding: 3px;
-	background-image:url('https://img.subeta.net/profile_header_gradient.png');
-	background-color: #3196b7;	
-}
-
-.data { 
-	text-align: center;
-}
-
-#friends td { 
-	width: 64px;
-}
-
-#medals td { 
-	width: 64px;
-}
 
 .header { 
 	background-image:url('https://img.subeta.net/profile_header_gradient.png');
