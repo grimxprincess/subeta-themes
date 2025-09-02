@@ -103,9 +103,6 @@ table,tr,td {
 	text-align: center;
 }
 
-/* SET SIZES FOR BLOCKS */
-
-/*
 #friends td { 
 	width: 64px;
 }
@@ -169,8 +166,8 @@ table,tr,td {
 	margin: 3px;
 	width: 70%;
 }
-/* Toolbox */
-/*
+
+
 #toolbox { 
 	background-color: white;
 	border: 1px solid black;
