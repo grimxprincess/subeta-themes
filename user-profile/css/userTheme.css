@@ -93,6 +93,10 @@ table,tr,td {
 	width: 64px;
 }
 
+#header-avatar {
+    display: none !important;
+}
+
 #navigation {
   color: var(--white);
   font-family: var(--body-font-family);
