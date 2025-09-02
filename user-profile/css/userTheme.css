@@ -7,7 +7,7 @@
 
 a, a:link
 {
-	color: var(--yellow);
+	color: var(--orange);
 	text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ body {
   margin-bottom: var(--column-spacing);
   padding: var(--block_content-spacing);
   background-image: none !important;
-  border: 2px solid var(--white);
+  border: none;
 }
 
 .block .header {
@@ -71,7 +71,7 @@ body {
 }
 
 .button:hover {
-  box-shadow: 0 0 0.5rem var(--yellow);
+  box-shadow: 0 0 0.5rem var(--orange);
 }
 
 .comment_table {
