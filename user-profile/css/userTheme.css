@@ -93,7 +93,7 @@ table,tr,td {
     display: none !important;
 }
 
-#content_avatar {
+#column1_avatar {
     background-image: none !important;
     background-repeat: no-repeat;
 	  background-color: transparent;
