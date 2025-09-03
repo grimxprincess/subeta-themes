@@ -133,52 +133,62 @@ table,tr,td {
 
 #column1 {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6 equal columns spanning full width */
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
-  width: 100%; /* ensure it stretches */
+  width: 100%;
 }
 
-/* Avatar on left 2 columns, spanning 2 rows */
+/* Avatar */
 #column1_9116282 {
-  grid-column: 2 / span 1; /* columns 1-2 */
-  grid-row: 1 / span 3;    /* rows 1-2 */
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 3;
   display: grid;
 }
 
 #column1_avatar {
-  height: 100%;       /* fill parent height */
-  width: 100%;        /* fill parent width if needed */
-  display: block;     /* ensures it respects height */
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
-/* About Me to the right of avatar (columns 3-6, row 1) */
+/* About Me */
 #column1_9115439 {
-  grid-column: 3 / span 2; 
+  grid-column: 2 / span 2; 
   grid-row: 1;
 }
 
-/* Profile below about me */
+/* Profile */
 #column1_9115441 {
-  grid-column: 3 / span 2; 
+  grid-column: 2 / span 2; 
   grid-row: 2;
 }
 
-/* Wishlist below About Me (columns 3-6, row 2) */
+/* Wishlist */
 #column1_9115443 {
-  grid-column: 3 / span 2; 
+  grid-column: 2 / span 2; 
   grid-row: 3;
 }
 
-/* Stats and Shops can share a row below the avatar & about/pets */
+/* Options */
+#column1_9115448 {
+  grid-column: 4 / span 2; 
+  grid-row: 1;
+}
+
+/* Pets */
+#column1_9115447 {
+  grid-column: 4 / span 2; 
+  grid-row: 2 / span 2;
+}
+
+/* Stats and Shop */
 #column1_9115446, /* stats */
-#column1_9115438, /* shops */
-#column1_9115447 /* pets */ {
+#column1_9115438 /* shops */ {
   grid-column: span 6; /* full width row */
 }
 
-/* Comments, Options, Comment all full width below */
-#column1_9115444, 
-#column1_9115448, 
+/* Comments, Comment */
+#column1_9115444,  
 #column1_9115445 {
   grid-column: span 6;
 }
