@@ -120,11 +120,6 @@ table,tr,td {
 	background-color: var(--purple);
 }
 
-.column {
-	width: 95%;
-	height: 100%;
-}
-
 .div_float {
   display: grid; 
   grid-template-columns: repeat(6, 1fr); 
