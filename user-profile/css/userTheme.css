@@ -52,6 +52,8 @@ input,textarea,select {
   background-repeat: no-repeat;
   background-color: var(--block-bg-color);
   border-radius: var(--block-radius);
+  border: 1px solid var(--purple);
+  box-shadow: 0 4px 0 var(--yellow);
 }
 
 body {
