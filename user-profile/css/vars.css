@@ -27,4 +27,5 @@
   --block-radius: .5rem;
   --block-bg-color: var(--purple);
   --block_head-bg-color: var(--blue);
+  --block-spacing: 3px;
 }

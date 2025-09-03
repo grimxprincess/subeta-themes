@@ -7,7 +7,7 @@
 
 a, a:link
 {
-	color: var(--orange);
+	color: var(--yellow);
 	text-decoration: none;
 }
 
@@ -27,12 +27,12 @@ input,textarea,select {
 }
 
 .block {
-  background: var(--block-bg-color);
+  background-color: var(--block-bg-color);
   -moz-border-radius: var(--block-radius);
 	-webkit-border-radius: var(--block-radius);
   border-radius: var(--block-radius);
   margin-bottom: var(--column-spacing);
-  padding: var(--block_content-spacing);
+  padding: var(--block-spacing);
   background-image: none !important;
   border: none;
 }
@@ -42,14 +42,15 @@ input,textarea,select {
   font-family: var(--heading-font-family);
   font-size: var(--block_head-font-size);
   border-radius: var(--block-radius) var(--block-radius) 0 0;
-  padding: var(--block_content-spacing);
+  padding: var(--block-spacing);
 }
 
 .info_block { 
 	width: 100%;
-	padding: 1px;
-  background-image: linear-gradient(to bottom, var(--purple), var(--blue)) !important;
+	padding: var(--block-spacing);
+  background-image: none !important;
   background-repeat: no-repeat;
+  background-color: var(--block-bg-color);
 }
 
 body {
@@ -59,7 +60,7 @@ body {
   color: var(--white);
   margin: var(--body-spacing);
   border-radius: var(--body-radius);
-  padding: 1rem;
+  padding: var(--block-spacing);
 }
 
 .button {
@@ -93,26 +94,8 @@ table,tr,td {
     display: none !important;
 }
 
-#column1_9116282 {
-    background-image: none !important;
-    background-repeat: no-repeat;
-	  background-color: transparent;
-    border: none !important;
-}
-
-#column1_avatar {
-    background-image: none !important;
-    background-repeat: no-repeat;
-	  background-color: transparent;
-    border: none !important;
-}
-
 #content_avatar {
     height: 100%;
-    background-image: none !important;
-    background-repeat: no-repeat;
-	  background-color: transparent;
-    border: none !important;
 }
 
 #content_avatar img {
@@ -128,12 +111,11 @@ table,tr,td {
   letter-spacing: 1px;
 	border-bottom: 1px solid black;
   margin: var(--body-spacing);
-	padding: 3px;
+	padding: var(--block-spacing);
   background-image: none !important;
   background-repeat: no-repeat;
 	background-color: var(--blue);
 }
-
 
 .column {
 	width: 95%;
