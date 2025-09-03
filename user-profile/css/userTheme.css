@@ -7,7 +7,7 @@
 
 a, a:link
 {
-	color: var(--yellow);
+	color: var(--orange);
 	text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ table,tr,td {
 	padding: var(--block-spacing);
   background-image: none !important;
   background-repeat: no-repeat;
-	background-color: var(--blue);
+	background-color: var(--purple);
 }
 
 .column {
