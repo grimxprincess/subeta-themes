@@ -140,17 +140,47 @@ table,tr,td {
 }
 
 #column1 {
-  grid-column: span 2;
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 1rem;
 }
 
-#column2 {
-  grid-column: span 3;
+/* Avatar on left 2 columns, spanning 2 rows */
+#column1_9116282 {
+  grid-column: 1 / span 2; /* columns 1-2 */
+  grid-row: 1 / span 2;    /* rows 1-2 */
 }
 
+/* About Me to the right of avatar (columns 3-6, row 1) */
+#column1_9115439 {
+  grid-column: 3 / span 4; 
+  grid-row: 1;
+}
+
+/* Pets below About Me (columns 3-6, row 2) */
+#column1_9115447 {
+  grid-column: 3 / span 4; 
+  grid-row: 2;
+}
+
+/* Stats and Shops can share a row below the avatar & about/pets */
+#column1_9115446, /* stats */
+#column1_9115438, /* shops */
+#column1_9115443  /* wishlist, optional */ {
+  grid-column: span 6; /* full width row */
+}
+
+/* Comments, Options, Comment all full width below */
+#column1_9115444, 
+#column1_9115448, 
+#column1_9115445 {
+  grid-column: span 6;
+}
+
+#column2, 
 #column3 {
-  grid-column: span 1;
+  display: none;
 }
-
 
 /*
 
