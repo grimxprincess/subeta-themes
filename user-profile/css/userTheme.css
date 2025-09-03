@@ -76,8 +76,9 @@ body {
 }
 
 .comment_table {
-  background-image: linear-gradient(to bottom, var(--purple), var(--blue)) !important;
+  background-image: none;
   background-repeat: no-repeat;
+  background-color: var(--purple);
 	border-bottom: 1px solid black;
 	width: 100%;
 }
