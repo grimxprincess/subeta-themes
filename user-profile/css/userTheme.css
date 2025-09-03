@@ -35,7 +35,7 @@ input,textarea,select {
   padding: var(--block-spacing);
   background-image: none !important;
   border: 1px solid var(--dark);
-  box-shadow: 0 4px 0 var(--yellow);
+  box-shadow: 0 6px 0 var(--yellow);
 }
 
 .block .header {
@@ -124,6 +124,35 @@ table,tr,td {
 	width: 95%;
 	height: 100%;
 }
+
+.div_float {
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr); 
+  grid-template-rows: auto; 
+  gap: 1rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.div_float .column {
+  float: none !important;
+  width: auto !important;
+}
+
+#column1 {
+  grid-column: span 2;
+}
+
+#column2 {
+  grid-column: span 3;
+}
+
+#column3 {
+  grid-column: span 1;
+}
+
+
 /*
 
 .header { 
