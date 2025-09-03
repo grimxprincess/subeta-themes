@@ -133,14 +133,14 @@ table,tr,td {
 
 #column1 {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   gap: 1rem;
   width: 100%;
 }
 
 /* Avatar */
 #column1_9116282 {
-  grid-column: 1 / span 1;
+  grid-column: 2 / span 1;
   grid-row: 1 / span 3;
   display: grid;
 }
@@ -153,44 +153,44 @@ table,tr,td {
 
 /* About Me */
 #column1_9115439 {
-  grid-column: 2 / span 2; 
+  grid-column: 3 / span 2; 
   grid-row: 1;
 }
 
 /* Profile */
 #column1_9115441 {
-  grid-column: 2 / span 2; 
+  grid-column: 3 / span 2; 
   grid-row: 2;
 }
 
 /* Wishlist */
 #column1_9115443 {
-  grid-column: 2 / span 2; 
+  grid-column: 3 / span 2; 
   grid-row: 3;
 }
 
 /* Options */
 #column1_9115448 {
-  grid-column: 4 / span 2; 
+  grid-column: 5 / span 2; 
   grid-row: 1;
 }
 
 /* Pets */
 #column1_9115447 {
-  grid-column: 4 / span 2; 
+  grid-column: 5 / span 2; 
   grid-row: 2 / span 2;
 }
 
 /* Stats and Shop */
 #column1_9115446, /* stats */
 #column1_9115438 /* shops */ {
-  grid-column: span 6; /* full width row */
+  grid-column: 3 / span 3; /* full width row */
 }
 
 /* Comments, Comment */
 #column1_9115444,  
 #column1_9115445 {
-  grid-column: span 6;
+  grid-column: 3 / span 3;
 }
 
 #column2, 
