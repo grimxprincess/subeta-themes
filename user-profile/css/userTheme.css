@@ -125,24 +125,17 @@ table,tr,td {
 }
 
 .div_float {
-  display: grid; 
-  grid-template-columns: repeat(6, 1fr); 
-  grid-template-rows: auto; 
-  gap: 1rem;
+  display: block;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.div_float .column {
-  float: none !important;
-  width: auto !important;
-}
-
 #column1 {
-  display: grid; 
-  grid-template-columns: repeat(6, 1fr); 
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 equal columns spanning full width */
   gap: 1rem;
+  width: 100%; /* ensure it stretches */
 }
 
 /* Avatar on left 2 columns, spanning 2 rows */
